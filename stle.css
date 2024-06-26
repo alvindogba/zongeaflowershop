@@ -9,8 +9,125 @@
 
 
 /* header Starts here */
-
-
+/* start on the top header code */
+.i{
+    color: black;
+    margin-left: 2.9%;
+}
+.icons{
+    padding: 0px 12px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+header p{
+    padding-left: 6px;
+}
+.text{
+    margin-right: 5%;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0%;
+}
+header a:hover{
+color: rgb(170, 59, 15);
+}
+hr{
+    margin-left: 4%;
+    width: 92%;
+} 
+/* End of header code */
+/* start of bottom header */
+.menue-bar{
+    background-color: #fff;
+    text-align: center;
+}
+.menue-bar{
+    display: flex;
+}
+.bi{
+    margin-top: 1.8%;
+    margin-left: 3.8%;
+}
+.Fultala{
+    font-size: x-large;
+}
+.menue-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    
+}
+.menue-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menue-bar ul a{
+color: black;
+text-decoration: none;
+}
+.menue-bar a:hover{
+color: chocolate;
+}
+.menue-bar ul li:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+.sub-menue1{
+    display: none;
+}
+.menue-bar ul li:hover .sub-menue1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menue-bar ul li:hover .sub-menue1 ul{
+    display: block;
+    margin: 10px;
+}
+.menue-bar ul li:hover .sub-menue1 ul li{
+    width: 150px;
+    padding: 0px;
+    border-bottom: 1px dotted white;
+    border-radius: 0;
+    text-align: left;
+}
+.menue-bar ul li:hover .sub-menue1 ul li:last-child{
+    border-bottom: none;
+}
+.icon{
+    margin-top: 2.5%;
+    margin-left: 10%;
+    display: flex;
+}
+.fa-sharp{
+    padding-left: 10px;
+    font-size: large;
+}
+.fa-regular{
+    font-size: large;
+    padding-left: 10px;
+}
+/* code for the media of the header */
+@media (max-width:1276px){
+    max-width: 1276px;
+}
+@media(max-width:587px){
+    .top-header{
+    display: none;
+}
+}
+@media(max-width:481px){
+.links{
+    display: none;
+}
+} 
 /* header Ends here */
 
 
