@@ -106,6 +106,15 @@ hr{
 
 
 /* Footer Starts here */
+  footer{
+    width: 100%;
+    height:max-content;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
    .fultala{
     margin-left: 1%;
     margin-top: 2%;
@@ -145,12 +154,20 @@ hr{
     
 
      }
+
+     .quicklink1{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-left: 10%;
+  } 
+
     .quicklink{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         margin-left: 10%;
-    }
+    } 
     a{
         text-decoration: none;
         color: black;
@@ -163,7 +180,7 @@ hr{
     .quick{
      display: flex;
      flex-direction: column;
-     margin-left: 10%;
+     margin-left: 0%;
     }
     
     .nav{
@@ -191,19 +208,104 @@ hr{
     }
     h4{
         margin-top: 5%;
+      
     }
     .main1{
         background-color: rgb(239, 237, 237);
-        padding-top: 4%;
+        padding: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .bottom{
         text-align: center;
     }
+    /* media code */
+    @media(max-width:890px){
+      .parent{
+       display: grid;
+       grid-template-columns: 1fr 1fr ;
+       grid-template-rows:1fr 1fr ;
+       width: 100%;
+      padding: 9% 0  5% 5% ;
+      gap: 2rem;
+     }
+     .fultala{
+      font-size: 1.7rem;
+     }
+    
+     .fultala p {
+      margin-top: 3%;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+     }
+     
+     .quicklink a,p {
+      font-size: 1.4rem;;
+     }
      
 
+     .quicklink1 a  {
+      font-size: 1.4rem;;
+     }
+
+      .head{
+      font-size:1.7rem;
+    
+     }
+     .quick h4,.sidetext{
+      font-size:1.7rem;
+     }
+      
+    input{
+      ::placeholder{
+      } font-size: 1.7rem;
+    }
+
+     .quicklink{
+      text-align: left;
+     }
+
+    }
+
+    @media(max-width:450px){
+      .parent{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr;
+        width: 100%;}
+     }
+
+
+
+    /* @media(max-width:970px){
+      .sidetext{
+        margin-right: 10%;
+        text-wrap: nowrap;
+      }
+    }
+    @media(max-width:979px){
+      .sidetext{
+        font-size: medium;
+        margin-right: 10px;
+        text-wrap: nowrap;
+      }
+    }
+     
   
+    @media(max-width:912px){
+      footer{
+        width:fit-content ;
+      }
+    
+    }
+   */
 
 
 
+
+     
 
 /* Footer Ends here */
+
+  
