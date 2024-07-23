@@ -92,6 +92,18 @@ hr{
 .cart-dropdown:hover{
  display: contents;
 }
+
+#text{
+    text-align: center;
+ }
+ #text .math{
+    color: red;
+ }
+ #img{
+    display: flex;
+ }
+
+
 /* media code */
 @media(max-width:1024px){
       header{
