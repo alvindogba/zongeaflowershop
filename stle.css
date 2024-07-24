@@ -18,6 +18,11 @@ header a{
 
 .i{
     color: black;
+    display: flex;
+    gap: 20px;
+}
+.fa-brands{
+  font-size: 16px;
 }
 .top-header{
     display: flex;
@@ -132,9 +137,125 @@ hr{
 }
 }
 /* header Ends here */
+/* section two start */
+.section2{
+  width: 100vw;
+  height: 100vh;
+  background:url(photo1.jpg)  no-repeat ;
+  background-size: cover;
+}
 
+.section2 .d{
+    color: #ff5151;
+    font-size: 40px;
+}
+.section2 .sec-3{
+ padding-top: 10%;
+ padding-left: 5%; 
+ transition: all 0.3s ease 0;
+ animation: move 3s;
+ position: relative;
+}
+.section2 h2, h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+  animation-duration: 1s;
+}
+.section2 p{
+  font-size: 16px;
+  padding-bottom: 30px;
+  animation-duration: 1.7s;
+}
+.section2 .f{
+    color: #ff5151;
+    font-size: 40px;
+}
+.section2 p {
+    line-height: 24px;
+    margin: 0;
+    max-width: 500px;
+}
+.line{
+  height: 40px;
+  width: 1px;
+  background: #ff5151;
+  margin-bottom: 10px;
+}
+.hero-btn span:hover{
+  transition: all .6s ease-in;
+  color: #ff5151;
+}
+.hero-btn .uppercase:hover{
+  color: #ff5151;
+}
+.slick-next {
+ display: none;
+  position: absolute;
+  left: 94%;
+  top: 70%;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  border: 1px solid #808080;
+  background: #808080;
+  opacity: 0.5;
+  animation: up 3s;
+}
+@keyframes up{
+  0%{
+    left: 94%;
+    top: 75%;
+  }
+  100%{
+     left: 94%;
+     top: 82%;
+  }
+}
+/* media code for the section */
 
-
+.slick-next:hover{
+  background: #ff5151;
+  border: 1px solid #ff5151;
+  opacity: 1;
+  cursor: pointer;
+}
+.arrow-left{
+  position: absolute;
+  left: 2%;
+  top: 69%;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  border: 1px solid #808080;
+  background: #808080;
+  opacity: 0.5;
+  animation: down 3s ; 
+  animation-timing-function: ease-in;
+}
+@keyframes down {
+  0%{
+    left: 2%;
+    top: 69%;
+  }
+  100%{
+    left: 2%;
+    top: 80%;
+  }
+}
+.arrow-left:hover{
+  background: #ff5151;
+  border: 1px solid #ff5151;
+  opacity: 1;
+  cursor: pointer;
+}
+@keyframes move{
+  0%{
+     padding-left: 0;
+  }
+  100%{
+    padding-left: 5%;
+  }
+}
 /* Footer Starts here */
    
     *{
