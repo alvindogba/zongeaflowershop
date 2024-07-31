@@ -103,7 +103,311 @@ hr{
 }
 /* header Ends here */
 
+ .section-2text-div ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-left: -3%;
+  
+ }
+ .all,.product{
+  font-size:250%;
+  
+ }
+ .all{
+  color: #ff5151;
+ }
 
+.section-2text-div p{
+  width: 50%;
+  text-align: center;
+  margin-left: 22%;
+  font-size: 12px;
+  line-height: 1.4rem;
+  margin-top: 0.5%;
+  margin-bottom: 3%;
+ } 
+  
+ .swiper-divA {
+  display: flex; 
+}
+ .swiper-div1 img{
+  width: 65%;
+  margin-left: 30%;
+  border-bottom: 1px solid rgb(231, 229, 229);
+  transition: 0.1s; 
+  padding-bottom: 2%;
+ } 
+ .swiper-div1 h5{
+  position:absolute;
+  font-size: small;
+  left: 12%;
+   padding-top: 15px;
+   cursor: pointer;
+   color: rgb(94, 91, 91);
+   transition: 0.3s;
+ }
+
+  .productdiv-1 div{
+    margin-left: 52%;
+    display: flex;
+    gap: 8%;
+ } 
+ .productdiv-1 div, p{
+  font-size: 11px;
+  cursor: default; 
+ }
+
+ .productdiv-2 div{
+ display: flex;
+ margin-left: 52%;
+ gap : 8%; 
+ }
+ 
+ .productdiv-2 div h5{
+  font-size: 11px;
+ }
+ .productdiv-3 div {
+  display: flex;
+  margin-left: 52%;
+  gap: 8%;
+ }
+
+ .productdiv-3 p{
+  font-size: 11px;
+  cursor: default;
+ }
+
+ .productdiv-4 div{
+  display: flex;
+  margin-left: 52%;
+  gap: 8%;
+ } 
+
+ .swiper-div2 h5{
+  position:absolute;
+  font-size: small;
+  left: 12%;
+   padding-top: 15px;
+   cursor: pointer;
+   color: rgb(94, 91, 91);
+   transition: 0.3s;
+ }
+  .productdiv-5 div{
+    display: flex;
+    margin-left: 52%;
+    gap: 8%;
+  } 
+ .productdiv-6 div{
+  display: flex;
+    margin-left: 52%;
+    gap: 8%;
+ }
+
+ .productdiv-7 div{
+  display: flex;
+    margin-left: 52%;
+    gap: 8%;
+ }
+
+ .productdiv-8 div{
+  display: flex;
+    margin-left: 52%;
+    gap: 8%;
+ }
+
+ .swiper-div1 h5:hover{
+   color: #ff5151;
+ }
+  .swiper-div2 h5:hover{
+    color: #ff5151;
+  }
+ .img:hover{
+  border-color: #ff5151;
+ }
+
+ .swiper-divB {
+  display: flex; 
+ }
+
+  .sideSlider{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+  }
+   .two , .one{
+    background-color: lightgray;
+    width: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    height: 2rem;  
+    padding-top: 0.7%;
+    position: relative;
+  }
+  .one{
+    margin-left: 10%; 
+  }
+  .two{
+   margin-right: 4%;
+  }
+ .swiper-div2 img{
+  width: 65%;
+  margin-left: 30%;
+  border-bottom: 1px solid rgb(231, 229, 229);
+  transition: 0.1s; 
+ }  
+ .off-class{
+  position:absolute;
+  background-color: #ff5151;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-left: -16%;
+  margin-top: 1%;
+
+}
+.off-class2{
+  position:absolute;
+  background-color: #ff5151;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  border-radius: 10px;
+  margin-left: -18%;
+  margin-top: 1%;
+  
+}
+.off-class3{
+  position:absolute;
+  background-color: #ff5151;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  border-radius: 10px;
+  margin-left: -18%;
+  margin-top: 1%;
+
+}
+.off-class4{
+  position:absolute;
+  background-color: #ff5151;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  border-radius: 10px;
+  margin-left: -18%;
+  margin-top: 1%;
+}
+ .last-div{
+  background-color: yellow;
+  height: 350px;
+  background-image: url(./images\ \(8\).jpeg);
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-size: cover;
+ }
+ .last-div img{
+  margin-top: 8%;
+  margin-left: 40%;
+ }
+ .bag-love-s{
+  gap: 2%;
+  margin-top: -5%;
+  margin-left: 11%;
+  display: none;
+  position: absolute;
+ }
+ .hide{
+  height: 2rem;
+  width: 2rem;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  margin-bottom: 2.5%;
+  cursor: pointer;
+  margin-top: -5%;
+ }
+ .hide:hover{
+  background-color: #ff5151;
+  transition: all 0.3s; 
+ }
+ .hide,i:hover{
+  color: white;
+ }
+
+ .bag-love-s2{
+    gap: 2%;
+    margin-top: -5%;
+    margin-left: 11%;
+    display: none;
+    position: absolute;
+   
+ }
+ .bag-love-s3{
+  gap: 2%;
+  margin-top: -5%;
+  margin-left: 11%;
+  display: none;
+  position: absolute;
+ 
+ }
+ .bag-love-s4{
+  gap: 2%;
+    margin-top: -5%;
+    margin-left: 11%;
+    display: none;
+    position: absolute;
+   
+ }
+ .bag-love-s5{
+  gap: 2%;
+  margin-top: -5%;
+  margin-left: 11%;
+  display: none;
+  position: absolute;
+ 
+ }
+ .bag-love-s6{
+  gap: 2%;
+    margin-top: -5%;
+    margin-left: 11%;
+    display: none;
+    position: absolute;
+   
+ }
+ 
+ .bag-love-s7{
+  gap: 2%;
+  margin-top: -5%;
+  margin-left: 11%;
+  display: none;
+  position: absolute;
+ 
+ }
+ .bag-love-s8{
+  gap: 2%;
+  margin-top: -5%;
+  margin-left: 11%;
+  display: none;
+  position: absolute;
+ }
+ 
 
 /* Footer Starts here */
    
@@ -112,6 +416,11 @@ hr{
       color:black;
       font-family: sans-serif;
       font-size: 16px;
+      margin: 0;
+      padding: 0;
+      /* box-sizing: border-box; */
+      
+      
     }
     .parent{
       width: 100%;
@@ -157,17 +466,25 @@ hr{
       line-height: 1.8rem;
       text-wrap: nowrap;
      margin-left: 6%;
-     font-size: 16px;
-     
+     font-size: 16px; 
+    }
+     .Quicklink-container a:hover{
+      color: red;
     }
     .Quickcontact-container{
       display: flex;
       flex-direction: column;
       line-height: 1.5rem;
       font-size: 16px;
-      margin-left: -5%;
-      
+      margin-left: -5%; 
     }
+    .Quickcontact-container,.ppp{
+        cursor:default;
+    }
+
+     .Quickcontact-container a:hover{
+       color: red;
+     }
 
      .image-div{
       display: flex;
@@ -226,7 +543,7 @@ hr{
     width: 30%;
     
    }
-   .Quickcontact-container .pp{
+   .Quickcontact-container .ppp{
     width: 30%; 
   }
   .latest-blog-div h4{
@@ -240,7 +557,7 @@ hr{
    .Quickcontact-container h4{
     margin-left: 7%;
    }
-   .Quickcontact-container a,.pp{
+   .Quickcontact-container a,.ppp{
     margin-left: 9%;
    }
    .fultala h2{
@@ -256,7 +573,7 @@ hr{
      }
    }
    @media(max-width:689px){
-    .Quickcontact-container .pp{
+    .Quickcontact-container .ppp{
       width: 50%;
     
       
@@ -275,7 +592,7 @@ hr{
       width: 40%;
       
      }
-     .Quickcontact-container .pp{
+     .Quickcontact-container .ppp{
       width: 50%;
     
       
@@ -286,7 +603,7 @@ hr{
       width: 50%;
       
      }
-     .Quickcontact-container .pp{
+     .Quickcontact-container .ppp{
       width: 50%;
     
       
@@ -341,7 +658,7 @@ hr{
     margin-left: -4%;
     padding-bottom: 2%;  
    }
-   .Quickcontact-container .pp{
+   .Quickcontact-container .ppp{
     width: 52%;
     padding-bottom: 2%;  
     line-height: 2rem;
